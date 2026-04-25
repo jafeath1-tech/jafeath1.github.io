@@ -4,95 +4,113 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Featherston Consulting Group</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
+<body>
   <div id="wrapper">
-    
+
     <header>
       <div class="logo">
-        <h1>Featherston<br>Consulting Group</h1>
+        <div class="logo-icon">F</div>
+        <div>
+          <h1>Featherston</h1>
+          <p>Consulting Group</p>
+        </div>
       </div>
 
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="consult-btn">Get a Free Consultation</a>
       </nav>
     </header>
 
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Smarter Operations.<br>Better Decisions. Real Growth.</h2>
+        <p>Helping small businesses streamline processes and drive growth with data.</p>
+        <a href="contact.html" class="primary-btn">Get Started</a>
+      </div>
+    </section>
+
+    <section class="service-strip">
+      <div class="service-box">
+        <div class="icon">⚙️</div>
+        <h3>Optimize Operations</h3>
+        <p>Streamline your workflows for maximum efficiency.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">📊</div>
+        <h3>Unlock Insights</h3>
+        <p>Turn your data into clear, actionable decisions.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">📈</div>
+        <h3>Drive Growth</h3>
+        <p>Develop strategies to grow your business profitably.</p>
+      </div>
+    </section>
+
     <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="hero-content">
-          <h2>Helping Small Businesses Solve Problems and Grow Smarter</h2>
-          <p>
-            Featherston Consulting Group provides practical consulting solutions
-            focused on strategy, operations, and data-driven decision-making.
-          </p>
-        </div>
+      <section class="welcome">
+        <h2>Welcome to <span>Featherston Consulting Group</span></h2>
+        <p>
+          We help small businesses overcome challenges and achieve sustainable growth by
+          using data to find solutions that work.
+        </p>
       </section>
 
-      <!-- Top Services Row -->
-      <section class="services-row">
-        <article class="service-box">
-          <h3>Optimize Operations</h3>
-          <p>Improve workflow efficiency and strengthen day-to-day business performance.</p>
-        </article>
-
-        <article class="service-box">
-          <h3>Unlock Insights</h3>
-          <p>Turn business information into clear, useful insights for smarter decisions.</p>
-        </article>
-
-        <article class="service-box">
-          <h3>Drive Growth</h3>
-          <p>Support business growth through planning, improvement, and practical solutions.</p>
-        </article>
-      </section>
-
-      <!-- Bottom Services Row -->
-      <section class="services-row bottom-row">
-        <article class="service-box">
+      <section class="cards">
+        <div class="card">
+          <div class="card-icon">🔍</div>
           <h3>Identify Problems</h3>
-          <p>Recognize key issues affecting productivity, efficiency, and business results.</p>
-        </article>
+          <p>Find what’s holding your business back.</p>
+        </div>
 
-        <article class="service-box">
+        <div class="card">
+          <div class="card-icon">📊</div>
           <h3>Data-Driven Insights</h3>
-          <p>Use information and analysis to guide planning and improve performance.</p>
-        </article>
+          <p>Analyze your performance with clear metrics.</p>
+        </div>
 
-        <article class="service-box">
+        <div class="card">
+          <div class="card-icon">🎯</div>
           <h3>Achieve Results</h3>
-          <p>Focus on realistic actions that create measurable and lasting outcomes.</p>
-        </article>
+          <p>Implement strategies that drive success.</p>
+        </div>
       </section>
 
-      <!-- Dashboard / Mission Section -->
-      <section class="dashboard-section">
-        <div class="dashboard-overlay">
-          <h2>Building Better Business Solutions</h2>
+      <section class="results">
+        <div class="results-text">
+          <h2>Real <span>Solutions.</span> Proven <span>Results.</span></h2>
           <p>
-            Our mission is to help startups and small businesses improve operations,
-            strengthen strategy, and use data to make better decisions with confidence.
+            From reducing costs to increasing profits, we deliver results that matter.
           </p>
         </div>
+
+        <div class="dashboard-box">
+          <h4>KPI Dashboard</h4>
+          <div class="chart-placeholder">
+            <p>Sales & Profit Overview</p>
+            <div class="bars">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <h2>Ready to <span>Transform Your Business?</span></h2>
+        <p>Schedule your free consultation today and take the first step toward smarter growth.</p>
+        <a href="contact.html" class="primary-btn">Get a Free Consultation</a>
       </section>
     </main>
 
-    <footer>
-      <p>
-        Ready to move your business forward?
-        <a href="#">Get a Consultation</a>
-      </p>
-    </footer>
-
   </div>
-
 </body>
 </html>
