@@ -448,3 +448,71 @@ span {
 .services-hero-text p {
   font-size: 18px;
 }
+/* About Hero */
+.about-hero {
+  height: 320px;
+  background: linear-gradient(to right, rgba(2,20,38,0.85), rgba(2,20,38,0.4));
+  display: flex;
+  align-items: center;
+}
+
+.about-hero-text {
+  color: white;
+  margin-left: 60px;
+  max-width: 600px;
+}
+
+.about-hero-text h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-section h2 {
+  color: #005f99;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-section p {
+  max-width: 800px;
+  line-height: 1.7;
+}
+
+/* Values */
+.values {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.value-grid {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.value-card {
+  flex: 1;
+  padding: 25px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.value-card h3 {
+  color: #005f99;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .value-grid {
+    flex-direction: column;
+  }
+
+  .about-hero-text {
+    margin: 30px;
+  }
+}
