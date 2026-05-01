@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Featherston Consulting Group</title>
+  <link rel="stylesheet" href="consulting.css">
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <header>
+      <div class="logo">
+        <div class="logo-icon">F</div>
+        <div>
+          <h1>Featherston</h1>
+          <p>Consulting Group</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="consult-btn">Free Consultation</a>
+      </nav>
+    </header>
+
+    <section class="contact-hero">
+      <div class="contact-hero-text">
+        <h2>Contact Us</h2>
+        <p>Ready to improve your operations, understand your data, and grow your business?</p>
+      </div>
+    </section>
+
+    <main>
+      <section class="contact-intro">
+        <h2>Schedule a Consultation</h2>
+        <p>
+          Complete the form below to contact Featherston Consulting Group.
+          We will review your message and follow up with you as soon as possible.
+        </p>
+      </section>
+
+      <section class="contact-layout">
+
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><strong>Email:</strong> info@featherstonconsulting.com</p>
+          <p><strong>Location:</strong> Maryland, United States</p>
+          <p><strong>Focus:</strong> Small business operations, data analytics, and growth strategy.</p>
+        </div>
+
+        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+          <label for="myName">*Name:</label>
+          <input type="text" id="myName" name="myName" required>
+
+          <label for="myEmail">*E-Mail Address:</label>
+          <input type="email" id="myEmail" name="myEmail" required>
+
+          <label for="myBusiness">Business Name:</label>
+          <input type="text" id="myBusiness" name="myBusiness">
+
+          <label for="myService">Service Needed:</label>
+          <select id="myService" name="myService">
+            <option value="operations">Operations Optimization</option>
+            <option value="analytics">Data Analytics</option>
+            <option value="growth">Growth Strategy</option>
+            <option value="general">General Consultation</option>
+          </select>
+
+          <label for="myComments">*Comments:</label>
+          <textarea id="myComments" name="myComments" rows="5" cols="30" required></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>
